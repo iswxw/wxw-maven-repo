@@ -16,12 +16,6 @@
     </properties>
      <!--maven jar包依赖-->
     <dependencies>
-        <!--工具类-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.3.5</version>
-        </dependency>
         <!--引入工具包-->
         <dependency>
             <groupId>com.wxw.tools</groupId>
@@ -65,7 +59,7 @@
         <repository>
             <id>github</id>
             <name>GitHub autumn Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/GitHubWxw/wxw-maven-repo/main</url>
+            <url>https://maven.pkg.github.com/GitHubWxw/wxw-maven-repo</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
